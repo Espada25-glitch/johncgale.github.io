@@ -500,7 +500,8 @@ footer a:hover { color: #0066cc; }
    ======================================== */
 @media (max-width: 700px) {
   nav { padding: 0 20px; }
-  nav ul { gap: 16px; }
+  nav .name-link { font-size: 11px; }
+  nav ul { gap: 12px; }
   nav ul a { font-size: 11px; }
   main { padding: 100px 20px 60px; }
   .hero { grid-template-columns: 1fr; }
