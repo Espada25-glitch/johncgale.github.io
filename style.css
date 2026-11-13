@@ -516,3 +516,19 @@ footer a:hover { color: #0066cc; }
   .course-card .course-header { flex-direction: column; gap: 4px; }
   .role-card .role-header { flex-direction: column; gap: 4px; }
 }
+
+/* Academic profile refresh: readable long-form content and compact screens. */
+main > p, .cv-content p { margin-bottom: 16px; }
+main a { overflow-wrap: anywhere; }
+.paper-card > p { font-size: 14px; line-height: 1.7; }
+.cv-content, .cv-content p, .cv-content h2, .cv-content h3, .cv-content a { color: #000; }
+.cv-content h3 { font-size: 15px; margin: 20px 0 6px; }
+.cv-content p { font-size: 14.5px; }
+#book { scroll-margin-top: 85px; }
+@media (max-width: 540px) {
+ nav { height: auto; min-height: 82px; flex-direction: column; justify-content: center; gap: 8px; padding: 10px 12px; }
+ nav ul { gap: 15px; flex-wrap: wrap; justify-content: center; }
+ .cv-topbar { align-items: flex-start; flex-direction: column; gap: 16px; }
+ .course-card, .paper-card { padding: 20px; }
+ .course-card .institution { white-space: normal; }
+}
